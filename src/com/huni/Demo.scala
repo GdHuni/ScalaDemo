@@ -107,14 +107,25 @@ object Demo {
       }
     }
 
+    //等价与myFunction(1,2)
+    val as =  (a:Int,b:Int) =>  a+b
+    println("=="+as(1,2))
+
     println("函数： "+myFunction(1,2))
     println("函数： "+myFunction2(1,2))
+
+    val doubleSalary = (x: Int) => x * 2
+    println("=="+doubleSalary(1))
+
   }
 
   /**函数*/
   def myFunction(a:Int,b:Int):Int = {
     a+b
   }
+
+
+
   /**函数*/
   def myFunction2(a:Int,b:Int):Unit = {
     a+b
