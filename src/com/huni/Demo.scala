@@ -11,7 +11,15 @@ package com.huni
  * @创建日期: 2021/3/13 0013 10:12
  */
 object Demo {
+  def add2(x: Int) = (y:Int) => x + y
+  def add3(x: Int)(y:Int) =  x + y
   def main(args: Array[String]): Unit = {
+
+    val intToInt = add2(1)(2)
+    //柯里化
+    val intToInt2 = add3(1)(2)
+    println(intToInt)
+    println(intToInt2)
 /*    print("aa");
     println("ss");
     var y = 0
