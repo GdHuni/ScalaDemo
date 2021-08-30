@@ -1,8 +1,3 @@
-package com.huni
-import java.io.{PrintWriter, Writer}
-
-import scala.io.Source
-import scala.io.BufferedSource
 /**
  * @功能描述:
  * @项目版本: 1.0.0

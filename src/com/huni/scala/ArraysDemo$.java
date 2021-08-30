@@ -1,8 +1,3 @@
-package com.huni
-
-import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
-
 /**
  * @功能描述: 数组Demo
  * @项目版本: 1.0.0

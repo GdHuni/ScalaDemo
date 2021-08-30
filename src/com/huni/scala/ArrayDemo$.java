@@ -1,8 +1,3 @@
-package com.huni
-
-import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
-
 /**
  * 在Scala中，数组分为定长数组和变长数组。
  * 定长数组，Array，长度是不变的

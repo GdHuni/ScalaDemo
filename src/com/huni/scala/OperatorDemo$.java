@@ -1,5 +1,3 @@
-package com.huni
-
 object OperatorDemo {
   def main(args: Array[String]): Unit = {
     //将数组中的偶数加倍，奇数丢弃

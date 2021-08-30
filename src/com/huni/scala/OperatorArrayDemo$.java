@@ -1,6 +1,3 @@
-package com.huni
-import scala.collection.mutable
-
 /**
  * @功能描述: 操作数据
  * @项目版本: 1.0.0
